@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'mixins';
+@import 'title-and-legend';
+@import 'tooltip';
+
+/* MAIN */
+body {
+  background-color: $bg-color;
+  font-family: $main-font;
+}
+
+svg {
+  background-color: white;
+  position: absolute;
+  box-shadow: 0 0 10px 10px $box-shadow-color;
+  
+  @include positioning(50%);
+}
+
+.graph { width: 90%; }
+
+.dot {
+  opacity: 0.8;
+  stroke: black;
+  stroke-width: 0.8;
+}
+
+#yAxis-label {
+  fill: black;
+  text-anchor: middle;
+  font-size: 1.5em;
+}

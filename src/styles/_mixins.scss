@@ -1,0 +1,8 @@
+/* MIXINS */
+@mixin positioning ($position) {
+  top: $position;
+  left: $position;
+  -moz-transform: translateX(-$position) translateY(-$position);
+  -webkit-transform: translateX(-$position) translateY(-$position);
+  transform: translateX(-$position) translateY(-$position);
+}
