@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "277d0e86250070a41136c1bed29378d7",
+    "revision": "325d9887ee9f5031b17b0caa49e25124",
     "url": "/dataviz-scatterplot-d3/index.html"
   },
   {
-    "revision": "78766ecb3efb53cd64ee",
-    "url": "/dataviz-scatterplot-d3/static/css/main.71023571.chunk.css"
+    "revision": "934795c8df8679906416",
+    "url": "/dataviz-scatterplot-d3/static/css/main.deead24e.chunk.css"
   },
   {
     "revision": "80b151c294765ec72a76",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dataviz-scatterplot-d3/static/js/2.78500963.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78766ecb3efb53cd64ee",
+    "revision": "934795c8df8679906416",
     "url": "/dataviz-scatterplot-d3/static/js/main.3dccac2b.chunk.js"
   },
   {
