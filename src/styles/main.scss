@@ -1,7 +1,7 @@
-@import 'variables';
-@import 'mixins';
-@import 'title-and-legend';
-@import 'tooltip';
+@import "variables";
+@import "mixins";
+@import "title-and-legend";
+@import "tooltip";
 
 /* MAIN */
 body {
@@ -13,11 +13,19 @@ svg {
   background-color: white;
   position: absolute;
   box-shadow: 0 0 10px 10px $box-shadow-color;
-  
+
   @include positioning(50%);
 }
 
-.graph { width: 90%; }
+.graph {
+  width: 70%;
+}
+
+@media (max-width: 900px) {
+  .graph {
+    width: 90%;
+  }
+}
 
 .dot {
   opacity: 0.8;
