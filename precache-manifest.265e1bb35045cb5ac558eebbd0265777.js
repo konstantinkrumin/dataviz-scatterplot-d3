@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "922a402583cada00f5e8c4a9fb07e6e1",
+    "revision": "277d0e86250070a41136c1bed29378d7",
     "url": "/dataviz-scatterplot-d3/index.html"
   },
   {

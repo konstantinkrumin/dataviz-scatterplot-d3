@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dataviz-scatterplot-d3/precache-manifest.0e0f832a2f86fc5776d38bdf07d9db3c.js"
+  "/dataviz-scatterplot-d3/precache-manifest.265e1bb35045cb5ac558eebbd0265777.js"
 );
 
 self.addEventListener('message', (event) => {
